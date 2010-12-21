@@ -2,7 +2,7 @@
 CHANGES
 =======
 
-0.1 (unreleased)
+0.1 (2010-12-21)
 ----------------
     * IPAddress and IPNetwork fields
     * test cases

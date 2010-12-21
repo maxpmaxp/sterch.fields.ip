@@ -1,7 +1,9 @@
 =================
- sterch.fields.ip
+sterch.fields.ip
 =================
 
-field to define:
+Fields to define:
  * ip address
- * ip network 
+ * ip network
+ 
+See zope.schema for more information about fields. 
