@@ -12,6 +12,7 @@
 __author__  = "Polscha Maxim (maxp@sterch.net)"
 __license__ = "ZPL"
 
+import os
 from setuptools import setup, find_packages
 
 def read(*rnames):
