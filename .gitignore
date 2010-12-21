@@ -1,0 +1,10 @@
+.*
+*.pyc
+bin
+eggs
+parts
+develop-eggs
+temp
+var
+products
+src/sterch.fields.ip.egg-info
