@@ -33,7 +33,7 @@ def alltests():
 
     suite = unittest.TestSuite()
     base = pkg_resources.working_set.find(
-        pkg_resources.Requirement.parse('zope.schema')).location
+        pkg_resources.Requirement.parse('sterch.fields.ip')).location
     for dirpath, dirnames, filenames in os.walk(base):
         if os.path.basename(dirpath) == 'tests':
             for filename in filenames:
@@ -49,7 +49,7 @@ def alltests():
     return suite
 
 setup( name='sterch.fields.ip',
-    version='0.1',
+    version='0.1.1a',
     url='http://pypi.sterch.net/sterch.fields.ip',
     license='ZPL 2.1',
     description='Provides fields to store IP address and network',

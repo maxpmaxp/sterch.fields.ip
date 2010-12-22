@@ -7,4 +7,5 @@ develop-eggs
 temp
 var
 products
+dist
 src/sterch.fields.ip.egg-info
