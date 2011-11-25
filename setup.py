@@ -49,7 +49,7 @@ def alltests():
     return suite
 
 setup( name='sterch.fields.ip',
-    version='0.1.1a',
+    version='0.1.1',
     url='http://pypi.sterch.net/sterch.fields.ip',
     license='ZPL 2.1',
     description='Provides fields to store IP address and network',
@@ -74,6 +74,7 @@ setup( name='sterch.fields.ip',
     package_dir={'': 'src'},
     namespace_packages=['sterch', 'sterch.fields',],
     include_package_data=True,
+    package_data = {'': ['*.txt', '*.cfg', '*.zcml']},
     install_requires=['setuptools',
                         'zope.interface',
                         'zope.schema',
